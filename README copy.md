@@ -1,1 +1,0 @@
-[![Deploy Astro site to Pages](https://github.com/TwitchingAstronaut/TwitchingAstronaut.github.io/actions/workflows/astro.yml/badge.svg)](https://github.com/TwitchingAstronaut/TwitchingAstronaut.github.io/actions/workflows/astro.yml)
