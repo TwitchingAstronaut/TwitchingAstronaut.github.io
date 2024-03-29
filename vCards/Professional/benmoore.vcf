@@ -1,0 +1,21 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Moore;Ben;;;
+FN:Ben Moore
+ORG:
+ADR;TYPE=WORK:
+TITLE:IT Support Engineer
+TEL;TYPE=CELL:61416367555
+TEL;TYPE=WORK:
+TEL;TYPE=HOME:
+TEL;TYPE=MSG:
+EMAIL;TYPE=WORK:benjamin.moore@outlook.com.au
+URL;TYPE=Digital Business Card:https://twitchingastronaut.github.io/vCards/Professional/
+URL:https://twitchingastronaut.github.io/
+URL;TYPE=Website:https://twitchingastronaut.github.io/
+URL;TYPE=GitHub:https://github.com/TwitchingAstronaut
+URL;TYPE=LinkedIn:https://linkedin.com//in/ben-moore-qld-aus/
+KEY;TYPE=PGP;ENCODING=b:
+NOTE:
+UID:EnBizCard-100665855
+END:VCARD
