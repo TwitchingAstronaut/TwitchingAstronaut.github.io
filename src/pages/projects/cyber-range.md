@@ -92,11 +92,11 @@ The steps for setting up the above network should work on either VMware or Virtu
 
 #### pfsense
 
-**pfSense Setup**
+##### pfSense Setup
 
 Follow the [install guide](https://docs.netgate.com/pfsense/en/latest/install/index.html)
 
-**pfSense Config**
+##### pfSense Config
 
 We'll use 2 CPU Cores and 4GB (4096 MB) RAM and for this setup we will be using 4 Virtual Network Interfaces (vtnet) as detailed below:
 
@@ -107,7 +107,7 @@ We'll use 2 CPU Cores and 4GB (4096 MB) RAM and for this setup we will be using 
 | 3 | Internal Network (intnet-DMZ)| Paravirtualised | 192.168.56.1/24 | DMZ Interface
 | 4 | Internal Network (intnet-EXT)| Paravirtualised | 172.16.0.1/24 | EXTNET Interface (fake WAN)
 
-**Firewall Rules**
+##### Firewall Rules
 
 pfSense by Default has a *Default Deny* rule whereby all traffic is blocked unless explicitly allowed, the following rule allow traffic.
 They are set as wide as possible but can be tightened if required (or want a challenge :P)
