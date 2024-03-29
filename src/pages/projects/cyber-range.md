@@ -1,7 +1,3 @@
----
-
-
----
 <style>
     html.dark {
         background-color: #0d0950;
@@ -42,19 +38,19 @@
     
 </style>
 
-# Incident Response Project <br> Cyber Range
+<font size='+12'>Incident Response Project <br> Cyber Range</font>
+<body>
 
+## Table of Contents 
 
-## Table Of Contents
-
-### Purpose
+## Purpose
 
 I'm currently studying a Certificate IV in Cybersecurity and for the Cluster course "Cyber Incident Response Threat Cluster" (VU23220 VU23221)
 We have been tasked with creating an Incident Response Exercise(IRx).
 
-This document will hopefully serve a howto guide on how i setup the network for our IRx.
+This document will hopefully serve a howto guide on how I setup the network for our IRx.
 
-### Requirements
+## Requirements
 ### Resources
 #### Host System
 * Host Computer: Asus TUF Gaming A15 (fa506iu)
@@ -76,7 +72,7 @@ This document will hopefully serve a howto guide on how i setup the network for 
 | Vuln Hub Machines | |[🖥️ OVA](https://www.vulnhub.com) | DMZ |
 | Kali 2024.1 | [💿 ISO](https://www.kali.org/get-kali/#kali-installer-images) | [🖥️ OVA](https://www.kali.org/get-kali/#kali-virtual-machines)| Red |
 
-#### Network Map:
+### Network Map:
 
 <img src="/cyber-range.svg" width='50%'>
 
@@ -172,4 +168,4 @@ Follow the [install guide](https://www.kali.org/docs/virtualization/install-virt
 ## Acknowledgements
 
 
-        
+</body>        
