@@ -1,8 +1,40 @@
 import { defineConfig } from 'astro/config';
-import remarkMermaid from 'astro-diagram/remark-mermaid';
-// https://astro.build/config
-export default defineConfig({
-    site: 'https://twitchingastronaut.github.io/',
-    markdown: {remarkPlugins: [remarkMermaid,]},
-});
+import astroRemark from "@astrojs/markdown-remark";
+// export default defineConfig({
+//     site: 'https://twitchingastronaut.github.io/',
+//     markdownOptions: {
+//         render: [
+//             astroRemark,
+//             {
+//                 rehypePlugins: [
+//                     "rehype-slug",
+//                     [
+//                         "rehype-autolink-headings",
+//                         { behavior: "append"},
+//                     ],
+//                     [
+//                         "rehype-toc",
+//                         { headings: ["h1", "h2"] }
+//                     ]
+//                 ],
+//             },],}
+// });
 
+export default /** @type {import('astro').AstroUserConfig} */ ({
+    renderers: [],
+    buildOptions: {
+        site: 'https://twitchingastronaut.github.io/',
+    },
+    markdownOptions: {
+      render: [
+        astroRemark,
+        {
+          rehypePlugins: [
+            'rehype-slug',
+            ['rehype-autolink-headings', { behavior: 'append' }],
+            ['rehype-toc', { headings: ['h1', 'h2'] }],
+          ],
+        },
+      ],
+    },
+  });
