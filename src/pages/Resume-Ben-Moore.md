@@ -17,14 +17,22 @@
     }
 
     th, td {
-      border: 0px solid black;
+      border: 1px solid black;
       padding: 4px;
       text-align: center;
     }
+    td.hide{
+      border: 0px solid black;
+    }
+    tr{
+      border-bottom: 1px solid black;
+      border-right: 1px solid black;
+      }
 
     img {
       max-width: 100%;
       height: auto;
+      width: 100px
     }
     
 </style>
@@ -232,7 +240,7 @@ but not limited to, inventory and financial management.
         </a>
             <p>Career Essentials <br>in Data Analysis</p>
       </td>
-      <td></td><td></td>
+      <td class='hide'>1</td><td class='hide'>2</td>
       <td>
         <a href="https://www.credly.com/badges/7f414839-2b3c-432e-8064-b974f6b44318/public_url">
             <img src="https://images.credly.com/size/340x340/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png" alt="Cisco - Introduction to Cybersecurity">

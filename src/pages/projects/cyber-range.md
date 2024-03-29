@@ -2,7 +2,45 @@
 
 
 ---
+<style>
+    html.dark {
+        background-color: #0d0950;
+        color: #fff;
+        }
 
+    .dark .nav-links a {
+    color: #fff;
+    }
+    table {
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 4px;
+      text-align: center;
+    }
+    td.hide{
+      border: 0px solid black;
+    }
+    tr{
+      border-bottom: 1px solid black;
+      border-right: 1px solid black;
+      }
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+        }
+    th{
+        background-color: #999999;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      width: 100px
+    }
+    
+</style>
 
 # Incident Response Project <br> Cyber Range
 
@@ -39,7 +77,7 @@ This document will hopefully serve a howto guide on how i setup the network for 
 | Kali 2024.1 | [💿 ISO](https://www.kali.org/get-kali/#kali-installer-images) | [🖥️ OVA](https://www.kali.org/get-kali/#kali-virtual-machines)| Red |
 
 #### Network Map:
-```mermaid
+```
 flowchart TD
 
 classDef red stroke:#f00,fill:#f00
@@ -140,7 +178,7 @@ We'll use this machine as the Config Machine & later during the IRx as the Blue 
 ### Red Team
 #### Kali
 
-Follow the [install guide]()
+Follow the [install guide](https://www.kali.org/docs/virtualization/install-virtualbox-guest-vm/)
 
 
 ## Configuration
