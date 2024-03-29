@@ -77,7 +77,7 @@ This document will hopefully serve a howto guide on how i setup the network for 
 | Kali 2024.1 | [💿 ISO](https://www.kali.org/get-kali/#kali-installer-images) | [🖥️ OVA](https://www.kali.org/get-kali/#kali-virtual-machines)| Red |
 
 #### Network Map:
-```
+```mermaid
 flowchart TD
 
 classDef red stroke:#f00,fill:#f00
