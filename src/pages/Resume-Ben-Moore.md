@@ -240,7 +240,7 @@ but not limited to, inventory and financial management.
         </a>
             <p>Career Essentials <br>in Data Analysis</p>
       </td>
-      <td class='hide'>1</td><td class='hide'>2</td>
+      <td class='hide'></td><td class='hide'></td>
       <td>
         <a href="https://www.credly.com/badges/7f414839-2b3c-432e-8064-b974f6b44318/public_url">
             <img src="https://images.credly.com/size/340x340/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png" alt="Cisco - Introduction to Cybersecurity">
@@ -273,5 +273,5 @@ but not limited to, inventory and financial management.
 
 ## CyberSecurity
 ### Cyber Range
-* [More Info](./projects/cyber-range.md)
+* [More Info](./projects/cyber-range)
 ### Programming
