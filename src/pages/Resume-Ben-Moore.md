@@ -273,5 +273,5 @@ but not limited to, inventory and financial management.
 
 ## CyberSecurity
 ### Cyber Range
-* [More Info](./projects/cyber-range)
+* [More Info](/projects/cyber-range)
 ### Programming
