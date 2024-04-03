@@ -43,6 +43,31 @@
 
 ## Table of Contents 
 
+- [Table of Contents](#table-of-contents)
+- [Purpose](#purpose)
+- [Requirements](#requirements)
+  - [Resources](#resources)
+    - [Host System](#host-system)
+    - [Virtual Machines](#virtual-machines)
+  - [Network Map:](#network-map)
+- [Setup](#setup)
+  - [Network](#network)
+    - [pfsense](#pfsense)
+      - [pfSense Setup](#pfsense-setup)
+      - [pfSense Config](#pfsense-config)
+      - [Firewall Rules](#firewall-rules)
+  - [Blue Team](#blue-team)
+    - [SEIM: Wazuh](#seim-wazuh)
+    - [Linux Mint](#linux-mint)
+    - [Debian 12 - Mail Server](#debian-12---mail-server)
+  - [Red Team](#red-team)
+    - [Kali](#kali)
+- [Configuration](#configuration)
+- [Usage](#usage)
+  - [Virtual Machine Info](#virtual-machine-info)
+- [Acknowledgements](#acknowledgements)
+
+
 ## Purpose
 
 I'm currently studying a Certificate IV in Cybersecurity and for the Cluster course "Cyber Incident Response Threat Cluster" (VU23220 VU23221)

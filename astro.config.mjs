@@ -4,14 +4,15 @@ import mdx from '@astrojs/mdx';
 // import astroRemark from "@astrojs/markdown-remark";
 export default defineConfig({
     site: 'https://twitchingastronaut.github.io/',
-    markdown: markdownConfig,
-    integrations: [
-    mdx({
-      ...markdownConfig,
-      extendPlugins: false,
-    }),
-  ]    
 });
+//     markdown: markdownConfig,
+//     integrations: [
+//     mdx({
+//       ...markdownConfig,
+//       extendPlugins: false,
+//     }),
+//   ]    
+// });
 
 
 
