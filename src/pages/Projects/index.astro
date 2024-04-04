@@ -1,10 +1,35 @@
 ---
 import Nav from "../../components/nav.astro";
+import Footer from '../../components/Footer.astro';
 ---
+<style>
+    th{
+        background-color: #999999;
+    }
+    table {
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 4px;
+      text-align: center;
+    }
+</style>
+
 
 <Nav />
-
+<body>
+    <br><br><br>
 <table>
-    <thead><tr>These are my Current Projects</tr></thead>
-    <td><a href="cyber-range">Incident Response - Cyber Range</a></td>
+    <th>These are my Current Projects</th>
+    <tr>
+        <td>
+            <a href="cyber-range">Incident Response - Cyber Range</a>
+        </td>
+    </tr>
 </table>
+
+<Footer />
+
+</body>
