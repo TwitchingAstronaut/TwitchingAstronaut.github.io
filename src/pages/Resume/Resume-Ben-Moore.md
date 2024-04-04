@@ -1,8 +1,4 @@
----
 
-
-
----
 <style>
     html.dark {
         background-color: #0d0950;
@@ -36,6 +32,12 @@
     }
     
 </style>
+
+<a href="/">Home</a>
+<a href="/about/">About</a>
+<a href="/blog/">Blog</a>
+<a href="/Resume/Resume-Ben-Moore/">Resume</a>
+<a href="/Projects/">Projects</a>
 
 # Ben Moore
 
