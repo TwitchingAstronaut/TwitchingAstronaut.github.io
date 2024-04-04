@@ -29,7 +29,7 @@
       border-right: 1px solid black;
       }
 
-    img {
+    img.table {
       max-width: 100%;
       height: auto;
       width: 100px
@@ -43,8 +43,8 @@
 
 Wynnum, Queensland, Australia
 
-ben.moore83@outlook.com.au <br>
-[https://linkedin.com/in/ben-moore-qld-aus]()
+[EMAIL REDACTED] <br>
+<a href="https://linkedin.com/in/ben-moore-qld-aus"><img src="https://media.licdn.com/dms/image/C560BAQHaVYd13rRz3A/company-logo_100_100/0/1638831590218/linkedin_logo?e=1720051200&v=beta&t=zyu0drSoTIUhhmuVZPmRYmkroLYhJT2C9GBkJ9tturk" width="32" height = "32">LinkedIn Profile</a>
 
 # Summary
 
@@ -218,32 +218,32 @@ but not limited to, inventory and financial management.
     <tr>
       <td>
         <a href="https://www.credly.com/badges/0225dbb2-e378-403d-84e2-8099af7322e0/public_url">
-          <img src="https://images.credly.com/size/340x340/images/63482325-a0d6-4f64-ae75-f5f33922c7d0/CompTIA_A_2Bce.png" alt="CompTIA A+ CE Certification">
+          <img class="table" class="table"src="https://images.credly.com/size/340x340/images/63482325-a0d6-4f64-ae75-f5f33922c7d0/CompTIA_A_2Bce.png" alt="CompTIA A+ CE Certification">
         </a>
         <p><strong>Issued Jan 2023<br>Expires Jan 2026</strong></p>
       </td>
       <td>
         <a href="https://www.credly.com/badges/5e054370-164a-431a-81ce-84276bfc662e/public_url">
-          <img src="https://images.credly.com/size/340x340/images/74790a75-8451-400a-8536-92d792c5184a/CompTIA_Security_2Bce.png" alt="CompTIA Security+ CE Certification">
+          <img class="table" src="https://images.credly.com/size/340x340/images/74790a75-8451-400a-8536-92d792c5184a/CompTIA_Security_2Bce.png" alt="CompTIA Security+ CE Certification">
         </a>
         <p><strong>Issued Apr 2023<br>Expires Apr 2026</strong></p>
       </td>
       <td>
         <a href="https://www.credly.com/badges/6a39d5fa-5210-4e7e-a496-206ae65d725b/public_url">
-          <img src="https://images.credly.com/size/340x340/images/e1fc05b2-959b-45a4-8d20-124b1df121fe/CompTIA_Network_2Bce.png" alt="CompTIA Network+ CE Certification">
+          <img class="table" src="https://images.credly.com/size/340x340/images/e1fc05b2-959b-45a4-8d20-124b1df121fe/CompTIA_Network_2Bce.png" alt="CompTIA Network+ CE Certification">
         </a>
         <p><strong>Issued May 2023<br>Expires May 2026</strong></p>
       </td>
       <td>
         <a href="https://www.linkedin.com/learning/certificates/a74c8a503167ea788108d682254be1c5ab7e361ac1f39221a8b60255b0994bca">
-            <img src="https://media.licdn.com/dms/image/C560BAQHaVYd13rRz3A/company-logo_100_100/0/1638831590218/linkedin_logo?e=1720051200&v=beta&t=zyu0drSoTIUhhmuVZPmRYmkroLYhJT2C9GBkJ9tturk" alt="Career Essentials in Data Analysis" width=90 height=90>
+            <img class="table" src="https://media.licdn.com/dms/image/C560BAQHaVYd13rRz3A/company-logo_100_100/0/1638831590218/linkedin_logo?e=1720051200&v=beta&t=zyu0drSoTIUhhmuVZPmRYmkroLYhJT2C9GBkJ9tturk" alt="Career Essentials in Data Analysis" width=90 height=90>
         </a>
             <p>Career Essentials <br>in Data Analysis</p>
       </td>
       <td class='hide'></td><td class='hide'></td>
       <td>
         <a href="https://www.credly.com/badges/7f414839-2b3c-432e-8064-b974f6b44318/public_url">
-            <img src="https://images.credly.com/size/340x340/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png" alt="Cisco - Introduction to Cybersecurity">
+            <img class="table" src="https://images.credly.com/size/340x340/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png" alt="Cisco - Introduction to Cybersecurity">
         </a>
         <p>Cisco - Introduction to<br> Cybersecurity</p>
       </td>
@@ -251,13 +251,13 @@ but not limited to, inventory and financial management.
     <tr>
       <td>
         <a href="https://www.credly.com/badges/c6cbfa69-6f54-4979-8a89-00fe599a32c3/public_url">
-          <img src="https://images.credly.com/size/340x340/images/7f7657b9-4d1b-4b8d-b5ee-5fdf6d7ccd71/04294_CompTIA_Cert_Badges_Specialist_-_CIOS.png" alt="IT Operations Specialist – CIOS Stackable Certification">
+          <img class="table" src="https://images.credly.com/size/340x340/images/7f7657b9-4d1b-4b8d-b5ee-5fdf6d7ccd71/04294_CompTIA_Cert_Badges_Specialist_-_CIOS.png" alt="IT Operations Specialist – CIOS Stackable Certification">
         </a>
         <p><strong>Issued May 2023<br>Expires May 2026</strong></p>
       </td>
       <td>
         <a href="https://www.credly.com/badges/b2c1c13a-a210-4a89-a92b-9e816921b4c9/public_url">
-          <img src="https://images.credly.com/size/340x340/images/8090280a-311f-425f-a1cd-a32770b5a444/CompTIA_CSIS.png" alt="Secure Infrastructure Specialist – CSIS Stackable Certification">
+          <img class="table" src="https://images.credly.com/size/340x340/images/8090280a-311f-425f-a1cd-a32770b5a444/CompTIA_CSIS.png" alt="Secure Infrastructure Specialist – CSIS Stackable Certification">
         </a>
         <p><strong>Issued May 2023<br>Expires Apr 2026</strong></p>
       </td>

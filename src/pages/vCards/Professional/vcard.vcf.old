@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Ben Moore
+N;CHARSET=UTF-8:Moore;Ben;;Mr;
+GENDER:M
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:ben.moore83@outlook.com.au
+TEL;TYPE=CELL:+61413367555
+ADR;CHARSET=UTF-8;TYPE=HOME:;;;;Wynnum West;;
+TITLE;CHARSET=UTF-8:mr
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/ben-moore-qld-aus/
+X-SOCIALPROFILE;TYPE=HackTheBox:https://app.hackthebox.com/profile/665072
+REV:2024-04-04T08:58:18.137Z
+END:VCARD
