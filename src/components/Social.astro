@@ -1,7 +1,7 @@
 ---
 const { platform, username } = Astro.props;
 ---
-<a href={`https://www.${platform}.com/${username}`}>{platform}</a>
+<a href={`https://www.${platform}.com/${username}`} target="_blank">{platform}</a>
 
 <style>
     a {
@@ -10,5 +10,6 @@ const { platform, username } = Astro.props;
       background-color: #B4DA55;
       text-transform: capitalize;
       font-weight: bold;
+      text-decoration: none;
     }
   </style>
