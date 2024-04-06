@@ -52,8 +52,13 @@
     background-color: #04AA6D;
     color: white;
     }
+
+    body {
+    background-color: Canvas;
+    color: CanvasText;
+    color-scheme: light dark;
+    }
 </style>
-<link rel="stylesheet" href="../../styles/dark.css">
 <div class="topnav">
     <a href="/">Home</a>
     <a href="/about/">About</a>
