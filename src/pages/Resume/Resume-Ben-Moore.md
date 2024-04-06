@@ -1,4 +1,7 @@
-
+---
+author: "Ben Moore"
+updated: "06/04/2024"
+---
 <style>
     
     table {
@@ -71,8 +74,7 @@
 # Ben Moore
 
 
-
-Wynnum, Queensland, Australia
+Wynnum West, Queensland, Australia
 
 [EMAIL REDACTED] <br>
 <a href="https://linkedin.com/in/ben-moore-qld-aus"><img src="https://media.licdn.com/dms/image/C560BAQHaVYd13rRz3A/company-logo_100_100/0/1638831590218/linkedin_logo?e=1720051200&v=beta&t=zyu0drSoTIUhhmuVZPmRYmkroLYhJT2C9GBkJ9tturk" width="32" height = "32">LinkedIn Profile</a>
