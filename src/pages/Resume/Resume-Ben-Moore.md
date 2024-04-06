@@ -1,13 +1,6 @@
 
 <style>
-    html.dark {
-        background-color: #0d0950;
-        color: #fff;
-        }
-
-    .dark .nav-links a {
-    color: #fff;
-    }
+    
     table {
       border-collapse: collapse;
     }
@@ -60,6 +53,7 @@
     color: white;
     }
 </style>
+<link rel="stylesheet" href="../../styles/dark.css">
 <div class="topnav">
     <a href="/">Home</a>
     <a href="/about/">About</a>
@@ -67,6 +61,7 @@
     <a href="/Resume/Resume-Ben-Moore/">Resume</a>
     <a href="/Projects/">Projects</a>
 </div>
+<body>
 
 # Ben Moore
 
@@ -306,3 +301,5 @@ but not limited to, inventory and financial management.
 ### Cyber Range
 * [More Info](/projects/cyber-range)
 ### Programming
+
+</body>
