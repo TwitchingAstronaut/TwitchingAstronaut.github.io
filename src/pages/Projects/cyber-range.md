@@ -56,12 +56,16 @@
       - [pfSense Setup](#pfsense-setup)
       - [pfSense Config](#pfsense-config)
       - [Firewall Rules](#firewall-rules)
-  - [Blue Team](#blue-team)
+  - [Blue Team (LAN)](#blue-team-lan)
     - [SEIM: Wazuh](#seim-wazuh)
     - [Linux Mint](#linux-mint)
     - [Debian 12 - Mail Server](#debian-12---mail-server)
-  - [Red Team](#red-team)
+  - [Red Team (ExtNet)](#red-team-extnet)
     - [Kali](#kali)
+  - [Vulnerable Machines (DMZ)](#vulnerable-machines-dmz)
+    - [Minotaur](#minotaur)
+    - [SimpleCtf](#simplectf)
+    - [EternalBlue](#eternalblue)
 - [Configuration](#configuration)
 - [Usage](#usage)
   - [Virtual Machine Info](#virtual-machine-info)
@@ -73,7 +77,7 @@
 I'm currently studying a Certificate IV in Cybersecurity and for the Cluster course "Cyber Incident Response Threat Cluster" (VU23220 VU23221)
 We have been tasked with creating an Incident Response Exercise(IRx).
 
-This document will hopefully serve a howto guide on how I setup the network for our IRx.
+This document will hopefully serve a how-to guide on how I setup the network for our IRx.
 
 ## Requirements
 ### Resources
@@ -84,7 +88,7 @@ This document will hopefully serve a howto guide on how I setup the network for 
     * HDD1: 512GB M.2 SSD
     * HDD2: 1TB Sata SSD
     * OS: Windows 10 Pro (22H2)
-    * Virtualisztion: Oracle Virtual Box
+    * Virtualisation: Oracle Virtual Box
 
 #### Virtual Machines
 
@@ -107,7 +111,8 @@ The steps for setting up the above network should work on either VMware or Virtu
 (There maybe a follow-up guide for setting this up on Proxmox)
 
 1. [Install Virualbox](https://www.virtualbox.org/manual/UserManual.html#installation)
-2. Download required ISO or OVA files
+2. Install [VirtualBox Extention pack](https://download.virtualbox.org/virtualbox/7.0.18/Oracle_VM_VirtualBox_Extension_Pack-7.0.18.vbox-extpack)
+3. Download required ISO or OVA files
 
 ### Network
 
@@ -147,9 +152,10 @@ They are set as wide as possible but can be tightened if required (or want a cha
 
 \* *After setup completed this rule is disabled or deleted*
 
-### Blue Team
+### Blue Team (LAN)
 #### SEIM: Wazuh
 
+*There is currently a bug in the Wazuh 4.7.3 OVA that requires internet access during loading*
 Follow the [install guide](https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html)
 
 We'll hold off on setting up the agents until later.
@@ -160,11 +166,19 @@ We'll use this machine as the Config Machine & later during the IRx as the Blue 
 
 #### Debian 12 - Mail Server
 
-### Red Team
+### Red Team (ExtNet)
 #### Kali
 
 Follow the [install guide](https://www.kali.org/docs/virtualization/install-virtualbox-guest-vm/)
 
+### Vulnerable Machines (DMZ)
+
+For this particular IRx, we used 3 virtual machines
+#### [Minotaur]()
+- Import OVA file
+- set DHCP reservation in pfsense 192.168.56.223
+#### [SimpleCtf]()
+#### [EternalBlue]()
 
 ## Configuration
 
