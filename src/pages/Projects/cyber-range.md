@@ -56,6 +56,7 @@
       - [pfSense Setup](#pfsense-setup)
       - [pfSense Config](#pfsense-config)
       - [Firewall Rules](#firewall-rules)
+      - [DHCP Reservations](#dhcp-reservations)
   - [Blue Team (LAN)](#blue-team-lan)
     - [SEIM: Wazuh](#seim-wazuh)
     - [Linux Mint](#linux-mint)
@@ -129,7 +130,7 @@ We'll use 2 CPU Cores and 4GB (4096 MB) RAM and for this setup we will be using 
 | vtnet | Type | Driver | Subnet | Description |
 | :---: | --- | --- | --- | --- |
 | 1 | Bridged or NAT | Paravirtualised | dhcp | WAN interface
-| 2 | Internal Network (intnet) | Paravirtualised | 192.168.1.1/24 | LAN Interface
+| 2 | Internal Network (intnet) | Paravirtualised | 192.168.10.1/24 | LAN Interface
 | 3 | Internal Network (intnet-DMZ)| Paravirtualised | 192.168.56.1/24 | DMZ Interface
 | 4 | Internal Network (intnet-EXT)| Paravirtualised | 172.16.0.1/24 | EXTNET Interface (fake WAN)
 
@@ -152,10 +153,20 @@ They are set as wide as possible but can be tightened if required (or want a cha
 
 \* *After setup completed this rule is disabled or deleted*
 
+##### DHCP Reservations
+
+| VM | Network | IP |
+| --- | --- | --- |
+| Wazuh | LAN | 192.168.10.10 |
+| Mail | LAN | 192.168.10.25 |
+| Minotaur | DMZ | 192.168.56.223 |
+| Simple | DMZ | 192.168.56.100 |
+| Blue | DMZ | 192.168.56.65 |
+
 ### Blue Team (LAN)
 #### SEIM: Wazuh
 
-*There is currently a bug in the Wazuh 4.7.3 OVA that requires internet access during loading*
+*There is currently a bug in the Wazuh 4.6.0 OVA that requires internet access during loading*
 Follow the [install guide](https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html)
 
 We'll hold off on setting up the agents until later.
@@ -176,7 +187,14 @@ Follow the [install guide](https://www.kali.org/docs/virtualization/install-virt
 For this particular IRx, we used 3 virtual machines
 #### [Minotaur]()
 - Import OVA file
+- In Virtualbox machine settings set network card to "Internal Network - IntNetDMZ"
 - set DHCP reservation in pfsense 192.168.56.223
+- Restart VM
+  - edit GRUB entry to login as root ``` insert code here ```
+  - test network connectivity
+  - install Wazuh Agent
+
+
 #### [SimpleCtf]()
 #### [EternalBlue]()
 
