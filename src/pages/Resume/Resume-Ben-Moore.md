@@ -97,9 +97,14 @@ customer service in a dynamic environment, I look forward to contributing to the
 
 # Experience
 
+## Liebherr Australia
+### IT Support Engineer
+**April 2024 - Current**
+[Need to fill out this section]
+
 ## Attune Hearing
 ### Client Support Officer
-**Nov 2022 - Jan 2024 (1 year 3 months)**
+**Nov 2022 - Jan 2024 (1 year 4 months)**
 **Appointment Setter: Nov 2022 - Apr 2023**
 
 - Managing inbound and outbound calls, and responding to client queries and concerns via phone,
